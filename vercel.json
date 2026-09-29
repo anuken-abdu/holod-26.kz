@@ -1,19 +1,6 @@
 {
   "cleanUrls": false,
   "trailingSlash": false,
-  "redirects": [
-    {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "www.holod-26.kz"
-        }
-      ],
-      "destination": "https://holod-26.kz/:path*",
-      "permanent": true
-    }
-  ],
   "headers": [
     {
       "source": "/images/(.*)",
